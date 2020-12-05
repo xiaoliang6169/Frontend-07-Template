@@ -59,6 +59,10 @@ vertical-align:
     
 
 **for of**
+    `ES6新增了遍历器(Iterator)机制, 只要部署了Iterator的数据结构都可以使用 for ··· of ··· 完成遍历操作`
+    
+    原生具备Iterator接口的数据：
+    Array   Map Set String TypedArray 函数的arguments对象 NodeList对象
     
     let arr = ['a', 'b', 'c']
     for(let ele of arr) {}
@@ -70,10 +74,8 @@ vertical-align:
     
     let obj = {a: 1, b: 2, c: 3}
     for (let key of Object.keys(obj)) {}
-    不能直接遍历对象
-    
-    无法记录索引
-    可以使用break、continue、return
+    遍历对象需要借助Object.keys
+
     
     
 **map**
