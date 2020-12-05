@@ -36,7 +36,7 @@
 
 #### JS:
 **forEach:**
-`不能continue跳过/break终止循环, 没有返回值，不能return`
+`不能continue跳过/break终止循环, 没有返回值, return可以跳过当前循环`
     
     arr.forEach((ele, index, array) => {})
     ele: 当前元素
