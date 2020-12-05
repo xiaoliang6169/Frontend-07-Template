@@ -8,13 +8,13 @@
 
 ## 知识点：
 #### DOM:
-1. document.getElementById
-2. document.getElementsByClassName
-3. document.createElement
-4. Element.classList.add
-5. Element.innerText
-6. Element.innerHTML
-7. Element.appendChild
+*   document.getElementById
+*   document.getElementsByClassName
+*   document.createElement
+*   Element.classList.add
+*   Element.innerText
+*   Element.innerHTML
+*   Element.appendChild
 
 #### CSS:
 *   display:
