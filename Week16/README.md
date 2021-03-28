@@ -45,4 +45,19 @@ press move:
 
 touch cancel
 
+手势动画应用
+1. 给Carousel添加Gesture和Animation
+2. 处理Gesture 和 Animation 的结合
+    捡起播放中的图片
+    利用 pan 事件进行拖拽
+    利用 end 事件处理手势结束后的事情
+
+添加更多属性
+优化变量作用域
+添加状态控制
+给carousel添加event属性
+
+内容型children
+模板型children
+
 
